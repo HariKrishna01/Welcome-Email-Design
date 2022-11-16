@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Varela Round, 'Segoe UI', 'Arial', 'san serif';
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+ video {  
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+.container1 {
+    max-width: 600px;
+    margin: 20px  auto;
+    border-radius: 4px;
+    border: 1px solid;
+    border-top: 3px solid #03ddd2;
+    height: 100%;
+    position: relative;
+    background-color: #232325dc;
+   
+    
+  }
+
+  @media only screen and (max-width: 650px) {
+    .container1 {
+      margin: 20px  10px;
+    }
+  }
+
+  
+  
+
+.logo {
+  display: flex;
+  margin: 30px auto 0;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+
+.hgroup {
+  text-align: center;
+  padding: 50px 30px 30px;
+}
+
+.name {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #0267C1;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.thankyou{
+    color: orange;
+}
+
+.hgroup h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.hgroup h2 {
+  font-size: 19px;
+}
+
+.hgroup p {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+
+.anch{
+    color:orange;
+    text-decoration: none;
+}
+.anch:hover{
+    color: #03ddd2;
+}
+
+
